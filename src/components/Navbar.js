@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/personal-logo.png";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div class="menu-icon">
         <i class="fa fa-bars fa-2x"></i>
       </div>
-      <div class="logo">LOGO</div>
+      <img class="logo" src={logo}></img>
       <div class="menu">
         <ul>
           <li>
