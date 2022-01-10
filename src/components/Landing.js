@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Landing = () => {
   return (
     <div className="home">
       <h1>Hello, my name is Gabriel Issa</h1>
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Landing;
