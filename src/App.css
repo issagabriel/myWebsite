@@ -1,1 +1,16 @@
+.home {
+  background-color: black;
+  color: aliceblue;
+  height: 100vh;
+}
 
+.home h1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.home h3 {
+  display: flex;
+  justify-content: center;
+}
