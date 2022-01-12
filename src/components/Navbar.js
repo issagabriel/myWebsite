@@ -1,26 +1,21 @@
 import React from "react";
 import logo from "../images/personal-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
-      <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
+      <div className="menu-icon">
+        <i className="fa fa-bars fa-2x"></i>
       </div>
-      <img class="logo" src={logo}></img>
-      <div class="menu">
+      <img className="logo" src={logo}></img>
+      <div className="menu">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </div>
