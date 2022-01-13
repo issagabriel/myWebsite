@@ -8,7 +8,6 @@ const Navbar = () => {
       <div className="menu-icon">
         <i className="fa fa-bars fa-2x"></i>
       </div>
-      <img className="logo" src={logo}></img>
       <div className="menu">
         <ul>
           <li>

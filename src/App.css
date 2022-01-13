@@ -1,17 +1,23 @@
-.home {
+.app {
+}
+
+.home,
+.about {
   background-color: black;
   color: aliceblue;
   height: 100vh;
   padding: 50px;
 }
 
-.home h1 {
+.home h1,
+.about h1 {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 80px;
 }
 
-.home h3 {
+.home h3,
+.about h3 {
   display: flex;
   justify-content: center;
 }
@@ -36,7 +42,7 @@ nav {
 nav ul {
   line-height: 60px;
   list-style: none;
-  background: rgba(0, 0, 0, 0);
+  background: rgb(88, 23, 23);
   overflow: hidden;
   color: #fff;
   padding: 0;
@@ -47,7 +53,7 @@ nav ul {
 }
 
 nav.black ul {
-  background: #000;
+  background: red;
 }
 
 nav ul li {
@@ -86,7 +92,7 @@ nav ul li a {
   }
 
   nav.black ul {
-    background: #000;
+    background: rgb(61, 16, 16);
   }
 
   .showing {
