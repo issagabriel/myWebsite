@@ -2,7 +2,8 @@
 }
 
 .home,
-.about {
+.about,
+.projects {
   background-color: black;
   color: aliceblue;
   height: 100vh;
@@ -10,27 +11,25 @@
 }
 
 .home h1,
-.about h1 {
+.about h1,
+.projects h1 {
   display: flex;
   justify-content: center;
   padding: 80px;
 }
 
 .home h3,
-.about h3 {
+.about h3,
+.projects h3 {
   display: flex;
   justify-content: center;
 }
 
 .logo {
-  line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2px;
+  width: 100px;
+  padding-left: 10px;
 }
 
 nav {
