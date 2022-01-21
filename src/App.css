@@ -109,3 +109,13 @@ nav ul li a {
     display: block;
   }
 }
+
+.Footer {
+  width: 100%;
+  background-color: midnightblue;
+  color: silver;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
